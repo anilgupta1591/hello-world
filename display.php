@@ -20,10 +20,10 @@
   <?php
   error_reporting(E_ALL);
 ini_set('display_errors', 1);
-$servername = "mysql-instance1.claqtdx0ejhl.us-east-1.rds.amazonaws.com";
+$servername = "aaqebkn6663k4s.claqtdx0ejhl.us-east-1.rds.amazonaws.com";
 $username = "anil1591";
 $password = "itechuser";
-$dbname = "testdb";
+$dbname = "ebdb";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
